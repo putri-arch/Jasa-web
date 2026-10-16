@@ -299,55 +299,91 @@
 
             <!-- Informasi Kontak -->
             
-<div class="bg-indigo-900 text-white rounded-3xl p-8 sm:p-12 shadow-xl">
-  <!-- Tautan Email -->
-  <a href="mailto:putrirahana25@gmail.com?subject=Konsultasi%20Website%20WebCraft" 
-     style="display: flex; align-items: center; gap: 12px; padding: 16px; background-color: #25D366; color: white; border-radius: 12px; text-decoration: none; transition: background-color 0.3s;"
-     onmouseover="this.style.backgroundColor='#3b40a4'" 
-     onmouseout="this.style.backgroundColor='#2b308b'">
-    <!-- Ikon Email -->
-    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-    </svg>
-    <div>
-      <div style="font-size: 12px; opacity: 0.8;">Email Kami</div>
-      <div style="font-weight: bold;">putrirahana25@gmail.com</div>
-    </div>
-  </a>
+<section class="py-12 bg-gray-50 text-gray-800">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    
+    <!-- Judul & Sub-judul Utama -->
+    <h2 class="text-3xl sm:text-4xl font-bold text-slate-800 mb-3">
+      Get in Touch
+    </h2>
+    <p class="text-sm sm:text-base text-gray-500 max-w-2xl mx-auto mb-12 leading-relaxed">
+      HEY! We are looking forward to Start Project for blog website.<br class="hidden sm:inline" />
+      Interested Blog Development Company? Feel Free Following Contacts.
+    </p>
 
-  <!-- Tautan WhatsApp -->
-  <a href="https://wa.me/6285726896443?text=Halo%20WebCraft,%20saya%20ingin%20konsultasi%20mengenai%20pembuatan%20website." 
-     target="_blank" 
-     rel="noopener noreferrer"
-     style="display: flex; align-items: center; gap: 12px; padding: 16px; background-color: #25D366; color: white; border-radius: 12px; text-decoration: none; transition: background-color 0.3s;"
-     onmouseover="this.style.backgroundColor='#1ebd59'" 
-     onmouseout="this.style.backgroundColor='#25D366'">
-    <!-- Ikon WhatsApp -->
-    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
-    </svg>
-    <div>
-      <div style="font-size: 12px; opacity: 0.9;">WhatsApp / Telepon</div>
-      <div style="font-weight: bold;">+62 857-2689-6443</div>
-    </div>
-  </a>
+    <!-- Grid 3 Kartu Kontak -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+      
+      <!-- Kartu 1: Visit In Office (Lokasi) -->
+      <a href="https://maps.google.com/?q=Tabanan,+Bali,+Indonesia" 
+         target="_blank" 
+         rel="noopener noreferrer"
+         class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col items-center justify-between no-underline text-inherit group">
+        <div>
+          <!-- Ikon Kantor / Lokasi -->
+          <div class="w-16 h-16 mb-6 mx-auto flex items-center justify-center text-amber-700">
+            <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-800 mb-3 group-hover:text-amber-700 transition-colors">
+            Visit In Office
+          </h3>
+          <p class="text-xs sm:text-sm text-gray-500 leading-relaxed">
+            Tabanan, Bali, Indonesia
+          </p>
+        </div>
+      </a>
 
-  <!-- Lokasi (Opsional: Direct ke Google Maps) -->
-  <a href="https://maps.google.com/?q=Tabanan,+Bali,+Indonesia" 
-     target="_blank" 
-     rel="noopener noreferrer"
-     style="display: flex; align-items: center; gap: 12px; padding: 16px; background-color: #25D366; color: white; border-radius: 12px; text-decoration: none;">
-    <!-- Ikon Lokasi -->
-    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-    </svg>
-    <div>
-      <div style="font-size: 12px; opacity: 0.8;">Lokasi</div>
-      <div style="font-weight: bold;">Tabanan, Bali, Indonesia</div>
-    </div>
-  </a>
+      <!-- Kartu 2: Call Us Now (WhatsApp / Telepon - Kartu Tengah / Highlights) -->
+      <a href="https://wa.me/6285726896443?text=Halo%20WebCraft,%20saya%20ingin%20konsultasi%20mengenai%20pembuatan%20website." 
+         target="_blank" 
+         rel="noopener noreferrer"
+         class="bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center justify-between no-underline text-inherit group border-t-4 border-blue-900 md:-translate-y-2">
+        <div>
+          <!-- Ikon Telepon -->
+          <div class="w-16 h-16 mb-6 mx-auto flex items-center justify-center text-blue-900">
+            <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-800 mb-3 group-hover:text-blue-900 transition-colors">
+            Call Us Now
+          </h3>
+          <p class="text-xs sm:text-sm text-gray-500 leading-relaxed mb-2">
+            Have a question? Contact us 24 hours a day 7 days a week for the best customer service!
+          </p>
+          <span class="text-xs font-semibold text-blue-900 block mt-2">
+            +62 857-2689-6443
+          </span>
+        </div>
+      </a>
 
-</div>
+      <!-- Kartu 3: Send Message (Email) -->
+      <a href="mailto:putrirahana25@gmail.com?subject=Konsultasi%20Website%20WebCraft" 
+         class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col items-center justify-between no-underline text-inherit group">
+        <div>
+          <!-- Ikon Pesan / Email -->
+          <div class="w-16 h-16 mb-6 mx-auto flex items-center justify-center text-amber-700">
+            <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-800 mb-3 group-hover:text-amber-700 transition-colors">
+            Send Message
+          </h3>
+          <p class="text-xs sm:text-sm text-gray-500 leading-relaxed mb-2">
+            You can send a message to inform or receive feedback from us in a matter of days.
+          </p>
+          <span class="text-xs font-semibold text-amber-800 block mt-2">
+            putrirahana25@gmail.com
+          </span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
     </section>
 
     <!-- FOOTER -->
