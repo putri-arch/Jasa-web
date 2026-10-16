@@ -308,7 +308,7 @@
                             <i class="fa-solid fa-envelope text-indigo-300 text-2xl"></i>
                             <div>
                                 <p class="text-xs text-indigo-300">Email</p>
-                                <p class="font-medium text-sm">info@webcraft.com</p>
+                                <p class="font-medium text-sm">niluhmaderahanaputri@gmail.com</p>
                             </div>
                         </div>
 
@@ -316,7 +316,7 @@
                             <i class="fa-brands fa-whatsapp text-indigo-300 text-2xl"></i>
                             <div>
                                 <p class="text-xs text-indigo-300">WhatsApp / Telepon</p>
-                                <p class="font-medium text-sm">+62 812-3456-7890</p>
+                                <p class="font-medium text-sm">+62 857-2689-6443</p>
                             </div>
                         </div>
 
@@ -324,7 +324,7 @@
                             <i class="fa-solid fa-location-dot text-indigo-300 text-2xl"></i>
                             <div>
                                 <p class="text-xs text-indigo-300">Lokasi</p>
-                                <p class="font-medium text-sm">Jakarta, Indonesia</p>
+                                <p class="font-medium text-sm">Tabanan, Bali, Indonesia</p>
                             </div>
                         </div>
                     </div>
@@ -424,30 +424,478 @@
 
         // Data Lengkap Portofolio
         const portfolioData = {
-            portfolio1: {
-                category: "Company Profile",
-                title: "PT Sinar Maju Bersama",
-                desc: "Situs profil perusahaan modern yang dikembangkan untuk meningkatkan kepercayaan klien. Dilengkapi dengan katalog produk interaktif, company history, serta integrasi formulir kontak cepat.",
-                price: "Rp 2.500.000",
+            
+Percakapan dengan Gemini
+Ubah kode di bawah ini agar sesuai dengan tampilan dari web https://glow-demo.rintisdigital.com , dimana nanti ada link yang mengarah ke web di atas
+
+
+
+<div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-100 flex flex-col">
+
+                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80" alt="PT Sinar Maju" class="w-full h-48 object-cover">
+
+                <div class="p-6 flex flex-col flex-grow">
+
+                    Profil Perusahaan
+
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">PT Sinar Maju Bersama</h3>
+
+                    <p class="text-slate-600 text-sm mb-4 flex-grow">Website resmi perusahaan manufaktur dengan tampilan elegan, cepat, dan navigasi ramah pengguna.</p>
+
+                    <button onclick="openModal('portfolio1')" class="text-indigo-600 font-semibold hover:text-indigo-800 transition inline-flex items-center gap-1 text-left">
+
+                        Lihat Detail <i class="fa-solid fa-arrow-right text-xs"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+Berikut adalah kode yang telah disesuaikan dengan tampilan serta informasi dari web Glow & Grace ( [https://glow-demo.rintisdigital.com](https://glow-demo.rintisdigital.com)), lengkap dengan link yang mengarah langsung ke web tersebut:
+
+HTML
+<div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-100 flex flex-col">
+    <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=600&q=80" alt="Glow & Grace Beauty Salon" class="w-full h-48 object-cover">
+    <div class="p-6 flex flex-col flex-grow">
+        <span class="text-xs font-semibold text-rose-600 uppercase tracking-wider mb-2">Beauty & Spa Salon</span>
+        <h3 class="text-xl font-bold text-slate-900 mb-2">Glow & Grace</h3>
+        <p class="text-slate-600 text-sm mb-4 flex-grow">Salon kecantikan, perawatan rambut, spa relaksasi, dan riasan wajah profesional dengan tampilan elegan.</p>
+        
+        <div class="flex items-center justify-between mt-auto">
+            <button onclick="openModal('portfolio1')" class="text-rose-600 font-semibold hover:text-rose-800 transition inline-flex items-center gap-1 text-left text-sm">
+                Lihat Detail <i class="fa-solid fa-arrow-right text-xs"></i>
+            </button>
+            <a href="https://glow-demo.rintisdigital.com" target="_blank" rel="noopener noreferrer" class="bg-rose-50 text-rose-600 hover:bg-rose-100 px-3 py-1.5 rounded-lg text-xs font-medium transition inline-flex items-center gap-1">
+                Kunjungi Web <i class="fa-solid fa-external-link text-[10px]"></i>
+            </a>
+        </div>
+    </div>
+</div>
+Saya sudah upload di github, apakah bisa di lihat hasilnya dalam bentuk web meskipun belum di hosting
+
+Ya, Anda sangat bisa melihat dan menampilkan hasilnya dalam bentuk web secara langsung tanpa harus melakukan hosting tradisional (seperti membeli domain atau VPS).
+
+Berikut adalah beberapa cara mudah yang bisa Anda gunakan:
+
+1. Menggunakan Halaman GitHub (Gratis & Resmi dari GitHub)
+Karena repositori Anda sudah ada di GitHub, Anda bisa mengaktifkan GitHub Pages agar kode Anda dapat langsung diakses melalui link publik ( .github.io):
+
+Buka repositori proyek Anda di GitHub .
+
+Masuk ke tab Pengaturan (Pengaturan).
+
+Di menu sebelah kiri, pilih Halaman .
+
+Pada bagian Build and deployment -> Branch , pilih cabang utama Anda (misal: mainatau master) dan folder / (root), lalu klik Save .
+
+Tunggu 1–2 menit, lalu segarkan halaman tersebut. GitHub akan memberikan link URL web Anda (contoh: [https://usernameanda.github.io/nama-repo](https://usernameanda.github.io/nama-repo)).
+
+2. Menggunakan Layanan Pratinjau Instan (Tanpa Setup)
+Jika Anda hanya ingin melihat tampilan instan tanpa mengubah pengaturan repositori:
+
+CodePen / StackBlitz / CodeSandbox: Anda tinggal copy-paste kode HTML dan Tailwind CSS tersebut ke salah satu platform ini, dan hasilnya akan langsung muncul secara real-time di sebelah kanan.
+
+HTML Preview Online (seperti RawGit alternatif - htmlpreview.github.io ): 
+Anda bisa membuka link:
+ [https://htmlpreview.github.io/?https://github.com/USERNAME_ANDA/NAMA_REPO/blob/main/index.html](https://htmlpreview.github.io/?https://github.com/USERNAME_ANDA/NAMA_REPO/blob/main/index.html)
+(Ganti USERNAME_ANDA, NAMA_REPO, dan nama file HTML Anda sesuai dengan yang ada di GitHub).
+
+Silakan coba cara pertama (GitHub Pages) karena merupakan cara paling mudah dan permanen untuk melihat hasil kode Anda secara online!
+
+Ubah kode di bawah ini agar sesuai dengan tampilan dari web https://elegancewo-demo.rintisdigital.com , dimana nanti ada link yang mengarah ke web di atas
+
+
+
+<div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-100 flex flex-col">
+
+                <img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=600&q=80" alt="Kopi Nusantara" class="w-full h-48 object-cover">
+
+                <div class="p-6 flex flex-col flex-grow">
+
+                    <span class="text-xs font-semibold text-indigo-600 uppercase tracking-wider mb-2">E-Commerce</span>
+
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Toko Kopi Nusantara</h3>
+
+                    <p class="text-slate-600 text-sm mb-4 flex-grow">Situs web toko online terintegrasi sistem pembayaran digital, keranjang belanja, dan manajemen stok.</p>
+
+                    <button onclick="openModal('portfolio2')" class="text-indigo-600 font-semibold hover:text-indigo-800 transition inline-flex items-center gap-1 text-left">
+
+                        Lihat Detail <i class="fa-solid fa-arrow-right text-xs"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+Berikut adalah kode yang telah disesuaikan dengan tema dan informasi dari web Elegance Wedding Organizer ( [https://elegancewo-demo.rintisdigital.com](https://elegancewo-demo.rintisdigital.com)), lengkap dengan tombol tautan langsung menuju web tersebut:
+
+HTML
+<div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-100 flex flex-col">
+    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80" alt="Elegance Wedding Organizer" class="w-full h-48 object-cover">
+    <div class="p-6 flex flex-col flex-grow">
+        <span class="text-xs font-semibold text-rose-600 uppercase tracking-wider mb-2">Wedding Organizer</span>
+        <h3 class="text-xl font-bold text-slate-900 mb-2">Elegance Wedding Planner</h3>
+        <p class="text-slate-600 text-sm mb-4 flex-grow">Jasa perencanaan pernikahan profesional, dekorasi mewah, dan manajemen acara pernikahan impian yang elegan.</p>
+        
+        <div class="flex items-center justify-between mt-auto">
+            <button onclick="openModal('portfolio2')" class="text-rose-600 font-semibold hover:text-rose-800 transition inline-flex items-center gap-1 text-left text-sm">
+                Lihat Detail <i class="fa-solid fa-arrow-right text-xs"></i>
+            </button>
+            <a href="https://elegancewo-demo.rintisdigital.com" target="_blank" rel="noopener noreferrer" class="bg-rose-50 text-rose-600 hover:text-rose-700 hover:bg-rose-100 px-3 py-1.5 rounded-lg text-xs font-medium transition inline-flex items-center gap-1">
+                Kunjungi Web <i class="fa-solid fa-external-link text-[10px]"></i>
+            </a>
+        </div>
+    </div>
+</div>
+Ubah kode di bawah ini agar sesuai dengan tampilan dari web https://activity-demo.rintisdigital.com , dimana nanti ada link yang mengarah ke web di atas
+
+
+
+<div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-100 flex flex-col">
+
+                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="TechFlow" class="w-full h-48 object-cover">
+
+                <div class="p-6 flex flex-col flex-grow">
+
+                    <span class="text-xs font-semibold text-indigo-600 uppercase tracking-wider mb-2">Halaman Landing</span>
+
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Solusi TechFlow</h3>
+
+                    <p class="text-slate-600 text-sm mb-4 flex-grow">Halaman arahan modern untuk produk software SaaS lengkap dengan integrasi bentuk prospek.</p>
+
+                    <button onclick="openModal('portfolio3')" class="text-indigo-600 font-semibold hover:text-indigo-800 transition inline-flex items-center gap-1 text-left">
+
+                        Lihat Detail <i class="fa-solid fa-arrow-right text-xs"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+Berikut adalah kode yang telah disesuaikan dengan tampilan dan informasi dari web Activity Package Portal ( [https://activity-demo.rintisdigital.com](https://activity-demo.rintisdigital.com)), lengkap dengan tombol tautan langsung menuju web tersebut:
+
+HTML
+<div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-100 flex flex-col">
+    <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80" alt="Activity Package Portal" class="w-full h-48 object-cover">
+    <div class="p-6 flex flex-col flex-grow">
+        <span class="text-xs font-semibold text-teal-600 uppercase tracking-wider mb-2">Outdoor & Adventure</span>
+        <h3 class="text-xl font-bold text-slate-900 mb-2">Activity Package Portal</h3>
+        <p class="text-slate-600 text-sm mb-4 flex-grow">Portal pemesanan paket aktivitas outdoor, diving, trekking, camping, dan arung jeram untuk liburan seru Anda.</p>
+        
+        <div class="flex items-center justify-between mt-auto">
+            <button onclick="openModal('portfolio3')" class="text-teal-600 font-semibold hover:text-teal-800 transition inline-flex items-center gap-1 text-left text-sm">
+                Lihat Detail <i class="fa-solid fa-arrow-right text-xs"></i>
+            </button>
+            <a href="https://activity-demo.rintisdigital.com" target="_blank" rel="noopener noreferrer" class="bg-teal-50 text-teal-600 hover:text-teal-700 hover:bg-teal-100 px-3 py-1.5 rounded-lg text-xs font-medium transition inline-flex items-center gap-1">
+                Kunjungi Web <i class="fa-solid fa-external-link text-[10px]"></i>
+            </a>
+        </div>
+    </div>
+</div>
+Ubah kode di bawah ini agar sesuai dengan tampilan dari web https://tour-demo.rintisdigital.com , dimana nanti ada link yang mengarah ke web di atas
+
+
+
+<div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-100 flex flex-col">
+
+    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80" alt="Elegance Wedding Organizer" class="w-full h-48 object-cover">
+
+    <div class="p-6 flex flex-col flex-grow">
+
+        <span class="text-xs font-semibold text-rose-600 uppercase tracking-wider mb-2">Perencana Pernikahan</span>
+
+        <h3 class="text-xl font-bold text-slate-900 mb-2">Perencana Pernikahan Elegan</h3>
+
+        <p class="text-slate-600 text-sm mb-4 flex-grow">Jasa perencanaan pernikahan profesional, dekorasi mewah, dan manajemen acara pernikahan impian yang elegan.</p>
+
+        
+
+        <div class="flex items-center justify-between mt-auto">
+
+            <button onclick="openModal('portfolio2')" class="text-rose-600 font-semibold hover:text-rose-800 transition inline-flex items-center gap-1 text-left text-sm">
+
+                Lihat Detail <i class="fa-solid fa-arrow-right text-xs"></i>
+
+            </button>
+
+            <a href="https://elegancewo-demo.rintisdigital.com" target="_blank" rel="noopener noreferrer" class="bg-rose-50 text-rose-600 hover:text-rose-700 hover:bg-rose-100 px-3 py-1.5 rounded-lg text-xs font-medium transition inline-flex items-center gap-1">
+
+                Kunjungi Web <i class="fa-solid fa-external-link text-[10px]"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+Berikut adalah kode yang telah disesuaikan dengan tampilan dan informasi dari web Nusa Tour Bali ( [https://tour-demo.rintisdigital.com](https://tour-demo.rintisdigital.com)), lengkap dengan tombol tautan langsung menuju web tersebut:
+
+HTML
+<div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-100 flex flex-col">
+    <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=80" alt="Nusa Tour Bali" class="w-full h-48 object-cover">
+    <div class="p-6 flex flex-col flex-grow">
+        <span class="text-xs font-semibold text-emerald-600 uppercase tracking-wider mb-2">Tour & Travel</span>
+        <h3 class="text-xl font-bold text-slate-900 mb-2">Nusa Tour Bali</h3>
+        <p class="text-slate-600 text-sm mb-4 flex-grow">Penyedia layanan sewa mobil dan paket tur privat terbaik di Bali dengan sopir profesional dan harga transparan.</p>
+        
+        <div class="flex items-center justify-between mt-auto">
+            <button onclick="openModal('portfolio4')" class="text-emerald-600 font-semibold hover:text-emerald-800 transition inline-flex items-center gap-1 text-left text-sm">
+                Lihat Detail <i class="fa-solid fa-arrow-right text-xs"></i>
+            </button>
+            <a href="https://tour-demo.rintisdigital.com" target="_blank" rel="noopener noreferrer" class="bg-emerald-50 text-emerald-600 hover:text-emerald-700 hover:bg-emerald-100 px-3 py-1.5 rounded-lg text-xs font-medium transition inline-flex items-center gap-1">
+                Kunjungi Web <i class="fa-solid fa-external-link text-[10px]"></i>
+            </a>
+        </div>
+    </div>
+</div>
+Ubah kode di bawah ini agar sesuai dengan tampilan dari web https://tour-demo.rintisdigital.com , dimana nanti ada link yang mengarah ke web di atas
+
+
+
+<div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-100 flex flex-col">
+
+                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="TechFlow" class="w-full h-48 object-cover">
+
+                <div class="p-6 flex flex-col flex-grow">
+
+                    <span class="text-xs font-semibold text-indigo-600 uppercase tracking-wider mb-2">Pendaratan Halaman</span>
+
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Solusi TechFlow</h3>
+
+                    <p class="text-slate-600 text-sm mb-4 flex-grow">Halaman arah modern untuk produk software SaaS lengkap dengan integrasi bentuk prospek.</p>
+
+                    <button onclick="openModal('portfolio3')" class="text-indigo-600 font-semibold hover:text-indigo-800 transition inline-flex items-center gap-1 text-left">
+
+                        Lihat Detail <i class="fa-solid fa-arrow-right text-xs"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+Berikut adalah kode yang telah disesuaikan dengan tampilan dan informasi dari web Activity Package Portal ( [https://activity-demo.rintisdigital.com](https://activity-demo.rintisdigital.com)), lengkap dengan tombol tautan langsung menuju web tersebut:
+
+HTML
+
+
+
+<div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-100 flex flex-col">
+
+<img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80" alt="Portal Paket Aktivitas" class="w-full h-48 object-cover">
+
+<div class="p-6 flex flex-col flex-grow">
+
+<span class="text-xs font-semibold text-teal-600 uppercase tracking-wider mb-2">Aktivitas Luar Ruangan & Petualangan</span>
+
+<h3 class="text-xl font-bold text-slate-900 mb-2">Portal Paket Aktivitas</h3>
+
+<p class="text-slate-600 text-sm mb-4 flex-grow">Portal pemesanan paket aktivitas outdoor, diving, trekking, camping, dan arung jeram untuk liburan seru Anda.</p>
+
+
+<div class="flex items-center justify-between mt-auto">
+
+<button onclick="openModal('portfolio3')" class="text-teal-600 font-semibold hover:text-teal-800 transition inline-flex items-center gap-1 text-left text-sm">
+
+Lihat Detail <i class="fa-solid fa-arrow-right text-xs"></i>
+
+</button>
+
+<a href="https://activity-demo.rintisdigital.com" target="_blank" rel="noopener noreferrer" class="bg-teal-50 text-teal-600 hover:text-teal-700 hover:bg-teal-100 px-3 py-1.5 rounded-lg text-xs font-medium transition inline-flex items-center gap-1">
+
+Kunjungi Web <i class="fa-solid fa-external-link text-[10px]"></i>
+
+</a>
+
+</div>
+
+</div></div>
+
+
+
+
+
+
+
+
+
+Ubah kode di bawah ini agar sesuai dengan tampilan dari web https://tour-demo.rintisdigital.com , dimana nanti ada link yang mengarah ke web di atas
+
+
+
+<div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-100 flex flex-col">
+
+    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80" alt="Elegance Wedding Organizer" class="w-full h-48 object-cover">
+
+    <div class="p-6 flex flex-col flex-grow">
+
+        <span class="text-xs font-semibold text-rose-600 uppercase tracking-wider mb-2">Perencanaan Pernikahan</span>
+
+        <h3 class="text-xl font-bold text-slate-900 mb-2">Perencanaan Pernikahan Elegan</h3>
+
+        <p class="text-slate-600 text-sm mb-4 flex-grow">Jasa perencanaan pernikahan profesional, dekorasi mewah, dan manajemen acara pernikahan impian yang elegan.</p>
+
+        
+
+        <div class="flex items-center justify-between mt-auto">
+
+            <button onclick="openModal('portfolio2')" class="text-rose-600 font-semibold hover:text-rose-800 transition inline-flex items-center gap-1 text-left text-sm">
+
+                Lihat Detail <i class="fa-solid fa-arrow-right text-xs"></i>
+
+            </button>
+
+            <a href="https://elegancewo-demo.rintisdigital.com" target="_blank" rel="noopener noreferrer" class="bg-rose-50 text-rose-600 hover:text-rose-700 hover:bg-rose-100 px-3 py-1.5 rounded-lg text-xs font-medium transition inline-flex items-center gap-1">
+
+                Kunjungi Web <i class="fa-solid fa-external-link text-[10px]"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+Berikut adalah hasil perubahan kode HTML yang telah disesuaikan dengan tema dan konten web Nusa Tour Bali ( [https://tour-demo.rintisdigital.com](https://tour-demo.rintisdigital.com)), lengkap dengan tombol tautan langsung menuju situs tersebut:
+
+HTML
+<div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-100 flex flex-col">
+    <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=80" alt="Nusa Tour Bali" class="w-full h-48 object-cover">
+    <div class="p-6 flex flex-col flex-grow">
+        <span class="text-xs font-semibold text-emerald-600 uppercase tracking-wider mb-2">Tour & Travel</span>
+        <h3 class="text-xl font-bold text-slate-900 mb-2">Nusa Tour Bali</h3>
+        <p class="text-slate-600 text-sm mb-4 flex-grow">Penyedia layanan sewa mobil dan paket tur privat terbaik di Bali dengan sopir profesional dan harga transparan.</p>
+        
+        <div class="flex items-center justify-between mt-auto">
+            <button onclick="openModal('portfolio4')" class="text-emerald-600 font-semibold hover:text-emerald-800 transition inline-flex items-center gap-1 text-left text-sm">
+                Lihat Detail <i class="fa-solid fa-arrow-right text-xs"></i>
+            </button>
+            <a href="https://tour-demo.rintisdigital.com" target="_blank" rel="noopener noreferrer" class="bg-emerald-50 text-emerald-600 hover:text-emerald-700 hover:bg-emerald-100 px-3 py-1.5 rounded-lg text-xs font-medium transition inline-flex items-center gap-1">
+                Kunjungi Web <i class="fa-solid fa-external-link text-[10px]"></i>
+            </a>
+        </div>
+    </div>
+</div>
+portofolio1: {
+
+                kategori: "Salon Kecantikan & Spa",
+
+                judul: "KILAU & KEANGGUNAN",
+
+                desc: "Situs profil untuk landing page yang dikembangkan untuk meningkatkan kepercayaan klien. Dilengkapi dengan katalog produk interaktif, sejarah perusahaan, serta tampilan peta.",
+
+                Harga: "Rp 750.000",
+
                 img: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+
                 link: "https://wikipedia.org" // Link contoh (bebas diganti)
+
             },
-            portfolio2: {
-                category: "E-Commerce",
-                title: "Kopi Nusantara Shop",
+
+            portofolio2: {
+
+                kategori: "E-Commerce",
+
+                judul: "Toko Kopi Nusantara",
+
                 desc: "Platform toko online penjualan biji kopi lokal lengkap dengan keranjang belanja, integrasi payment gateway otomatis, hitung ongkos kirim, dan panel admin inventaris barang.",
-                price: "Rp 4.500.000",
+
+                Harga: "Rp 4.500.000",
+
                 img: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800&q=80",
+
                 link: "https://unsplash.com" // Link contoh (bebas diganti)
+
             },
-            portfolio3: {
-                category: "Landing Page / Tech",
-                title: "TechFlow Solutions",
-                desc: "Landing page berkonversi tinggi yang dirancang khusus untuk mempromosikan aplikasi SaaS. Tampilan futuristik dengan animasi halus, bagian fitur produk, serta skema harga langganan.",
-                price: "Rp 1.800.000",
+
+            portofolio3: {
+
+                kategori: "Landing Page / Teknologi",
+
+                judul: "Solusi TechFlow",
+
+                desc: "Halaman arahan berkonversi tinggi yang dirancang khusus untuk mempromosikan aplikasi SaaS. Tampilan futuristik dengan animasi halus, bagian fitur produk, serta skema harga langganan.",
+
+                Harga: "Rp 1.800.000",
+
                 img: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+
                 link: "https://github.com" // Link contoh (bebas diganti)
+
             }
+
+
+
+Ubah kode di atas agar sesuai dengan isi portofolio di web ini https://webcraft.rintisdigital.com dimana harga semua web sama rata 750.000, sudah include jasa hosting selama 1 tahun, revisi ringan, web responsif, tombol tombol ke whatsapp dan peta
+
+Berikut adalah kode yang telah diperbarui sesuai dengan standar harga dan informasi dari situs WebCraft ( [https://webcraft.rintisdigital.com](https://webcraft.rintisdigital.com)). Di mana seluruh portofolio diseragamkan dengan harga Rp 750.000 , sudah termasuk hosting 1 tahun , revisi ringan, desain responsif, tombol interaktif ke WhatsApp , serta informasi Google Maps :
+
+JavaScript
+const portfolioData = {
+    portfolio1: {
+        category: "Beauty & Spa Salon",
+        title: "GLOW & GRACE",
+        desc: "Situs profil salon kecantikan dan spa dengan desain elegan, katalog layanan interaktif, company history, serta integrasi Google Maps untuk memudahkan pelanggan mencari lokasi.",
+        price: "Rp 750.000",
+        features: ["Free Hosting 1 Tahun", "100% Responsif (Mobile Friendly)", "Revisi Ringan", "Tombol WhatsApp & Google Maps"],
+        img: "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80",
+        link: "https://glow-demo.rintisdigital.com",
+        whatsapp: "https://wa.me/6285726896443?text=Halo,%20saya%20tertarik%20dengan%20pembuatan%20website%20Glow%20%26%20Grace",
+        maps: "https://maps.google.com"
+    },
+    portfolio2: {
+        category: "Wedding Organizer",
+        title: "ELEGANCE WEDDING PLANNER",
+        desc: "Website perencanaan pernikahan profesional berkonsep mewah, galeri momen spesial, daftar paket layanan, serta fitur konsultasi langsung via WhatsApp dan navigasi Maps.",
+        price: "Rp 750.000",
+        features: ["Free Hosting 1 Tahun", "100% Responsif (Mobile Friendly)", "Revisi Ringan", "Tombol WhatsApp & Google Maps"],
+        img: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
+        link: "https://elegancewo-demo.rintisdigital.com",
+        whatsapp: "https://wa.me/6285726896443?text=Halo,%20saya%20tertarik%20dengan%20pembuatan%20website%20Elegance%20Wedding",
+        maps: "https://maps.google.com"
+    },
+    portfolio3: {
+        category: "Outdoor & Adventure",
+        title: "ACTIVITY PACKAGE PORTAL",
+        desc: "Portal pemesanan paket wisata petualangan outdoor, diving, trekking, hingga camping dengan informasi lengkap, harga transparan, dan akses langsung ke WhatsApp & Maps.",
+        price: "Rp 750.000",
+        features: ["Free Hosting 1 Tahun", "100% Responsif (Mobile Friendly)", "Revisi Ringan", "Tombol WhatsApp & Google Maps"],
+        img: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80",
+        link: "https://activity-demo.rintisdigital.com",
+        whatsapp: "https://wa.me/6285726896443?text=Halo,%20saya%20tertarik%20dengan%20pembuatan%20website%20Activity%20Package",
+        maps: "https://maps.google.com"
+    },
+    portfolio4: {
+        category: "Tour & Travel",
+        title: "NUSA TOUR BALI",
+        desc: "Website penyedia layanan sewa mobil dan paket tur privat di Bali. Dilengkapi pilihan rute wisata populer, informasi armada, serta tombol cepat ke WhatsApp dan Google Maps.",
+        price: "Rp 750.000",
+        features: ["Free Hosting 1 Tahun", "100% Responsif (Mobile Friendly)", "Revisi Ringan", "Tombol WhatsApp & Google Maps"],
+        img: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80",
+        link: "https://tour-demo.rintisdigital.com",
+        whatsapp: "https://wa.me/6285726896443?text=Halo,%20saya%20tertarik%20dengan%20pembuatan%20website%20Nusa%20Tour",
+        maps: "https://maps.google.com"
+    }
         };
 
         // Fungsi Buka Modal Detail
